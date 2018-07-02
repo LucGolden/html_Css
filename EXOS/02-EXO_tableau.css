@@ -1,0 +1,28 @@
+
+body{
+    background: burlywood;
+    width: 50%;
+    margin: 0 auto;
+}
+table{
+    width: 30em;
+    margin: 15px;
+    height: 20em;
+    border-collapse: collapse;
+}
+.jaune{
+    background: yellow;
+}
+
+.gris{
+    background: gray;
+}
+.blanc{
+    background: white;
+}
+.bleu{
+    background: blue;
+}
+.black{
+    background: black;
+}

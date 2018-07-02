@@ -1,0 +1,20 @@
+body{
+    background: whitesmoke;
+    margin: 0 auto;
+    width: 50%;
+}
+table{
+    width: 20em;
+    height: 10em;
+    border-collapse: collapse;
+
+}
+.black{
+    background: black;
+}
+.marron{
+    background: maroon;
+}
+.red{
+    background: rgb(212, 138, 138);
+}

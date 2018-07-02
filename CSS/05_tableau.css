@@ -1,0 +1,42 @@
+*{
+    /* l'étoile sélectionne TOUS les éléments de la page HTML */
+    font-family: fantasy;
+}
+body{
+    width: 50%; /*largeur de ma page => 50% de l'écran */
+    margin: 0 auto; /*je centre mon tableau en utilisant les marges automatiques*/
+}
+
+table{
+    border: 4px solid #d15e11; /*bordurer - 3 valeurs : épaisseur/type de trait/couleur*/
+    width: 90%;/*largeur du tableau par rapport a son contenant donc ici le body => régle de l'héritage en CSS*/
+    margin: 25px;
+    border-collapse: collapse; /*par défaut les bordures des tableaux ont 2 traits => pour qu'il en ait qu'un on utilise la valeur collapse*/
+}
+
+thead, tfoot{
+    background-color: aqua;
+    border: 2px solid #6a5acd;
+}
+
+tbody{
+    border: 5px solid #d15e11;
+}
+
+th{
+    border: 1px dotted #69b7db;/*dotted => pointillés*/
+    padding: 4px; /*marge interieur */
+    background-color: aquamarine;
+    width: 25%;
+}
+td{
+    font-size: 100%; /*EMMET font-size => fz = tab */
+    border: 1px dotted #3e28d1; /* Emmet border => bd = tab*/
+    text-align: center; /*centre le texte - EMMET text-align => ta + tab */
+    padding: 5px;
+}
+/* texte de la 1ière colonne à gauche - je surcharge ma ligne 36 (text-align:center */
+td:first-child{
+    text-align: left;
+    background-color: #d5c1db;
+}

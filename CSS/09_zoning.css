@@ -1,0 +1,44 @@
+#contenu{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid rgb(14, 233, 233);
+}
+header{
+    background-color: #eb5b92;
+    height: 100px;
+}
+
+nav{
+    background-color: rgb(166, 246, 4);
+    height: 30px;
+}
+main{
+    background-color:rgb(0, 245, 20) ;
+    height: 500px;
+    margin: 20px;
+}
+#a, #b, #c, #d{
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+#a{
+    background-color: blue;
+}
+#b{
+    background-color: rgb(250, 41, 41);
+}
+#c{
+    background-color: rgb(1, 39, 252);
+}
+#d{
+    background-color: rgb(248, 232, 12);
+}
+
+footer{
+    background-color: #eb5b92;
+    height: 100px;
+}
+.clear{
+    clear: none;
+}

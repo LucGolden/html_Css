@@ -1,0 +1,17 @@
+.c1, .c2{
+    height: 10em;
+    width: 10em;
+    border: 0.2em solid ;
+    margin: 0.2em;
+    float: left;
+    text-align: center;
+    border-radius: 20%;
+}
+.c1{
+    background:linear-gradient(blue, red)}
+.c2{
+    background:linear-gradient(red, blue)
+}
+.clear{
+    clear: both; /* annule l'effet flottant du "float:left" et du "float:right*/ 
+}
