@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Formulaire</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="" />
+    <link rel="stylesheet" href="css/03_formulaire.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <!-- je déclare mon formulaire avec la balise FORM -->
+    <form action="">
+        <fieldset>
+            <legend>Identité</legend>
+            <label for="">pseudo *</label>
+            <input type="text" placeholder="texte d'exemple" required><br>
+            <!-- REQUIRED rend le champs obligatoire pour valider le formulaire -->
+
+            <!-- mot de passe -->
+            <label for="">mot de passe *</label>
+            <input type="password" required placeholder="************"><br>
+
+            <!-- email -->
+            <label for="">mail</label>
+            <input type="email" placeholder="luc.golden@gmail.fr"><br>
+            <!-- fichier-->
+            <label for="">photo</label>
+            <input type="file"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Question</legend>
+
+            <!-- case à cocher -->
+            <label for="">où part-on en vacances</label>
+            <p>
+                <input type="checkbox">Chine
+                <!-- CHECKED coche une case par defaut -->
+                <input type="checkbox">Australie
+                <input type="checkbox" checked>Haïti
+            </p>
+            <!-- zone de texte -->
+            <label for="">commentaire</label>
+            <!-- je dimensionne ma zone de texte avec les attributs COLS (colonnes=nb de caractères) et ROWS(rangs/lignes) -->
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+
+        </fieldset>
+        <!-- bouton d'envoie du formulaire -->
+        <input type="submit" value="Envoyer">
+        <!-- bouton pour vider le formulaire -->
+        <input type="reset" value="annuler">
+    </form>
+    
+</body>
+</html>
