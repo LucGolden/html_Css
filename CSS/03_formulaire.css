@@ -1,0 +1,10 @@
+label{
+    float: left; /* j'aligne un élément ici sur la gauche */
+    width: 190px; /* largeur de mon label*/
+    color:#fff; /* couleur de fond en texte */
+background: #cc3d74; /*couleur de fond en code hexadécimal ou RVD*/
+}
+fieldset{
+    width: 50%;
+    background: aqua
+}

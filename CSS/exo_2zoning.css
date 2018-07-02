@@ -1,0 +1,27 @@
+#contenu{
+    
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid rgb(214, 110, 154);
+}
+header{
+      background-color: #f1a3c1;
+    height: 100px;
+    padding-top: 6px;
+    line-height: 0px;
+  
+}
+main{
+     background-color:rgb(255, 242, 242) ;
+    height: 500px;
+    margin: 0px;
+    padding-top: 6px;
+   
+}
+footer{
+     background-color: #f5b3cc;
+    height: 100px;
+    padding-top: 6px;
+    line-height: 0px;
+    
+}

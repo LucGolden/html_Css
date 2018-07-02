@@ -1,0 +1,33 @@
+body{
+    width: 80%;
+    margin: 10px auto; /*marge haut et bas / auto => navigatuer le body à lécran*/
+    font-family: fantasy;
+}
+
+#contenu{
+    background-color: red;
+    border: 2px solid #000000;
+} 
+
+header, footer{
+    height: 80px;
+    background-color: #8e3557;
+    color: #fff;
+    text-align: center;
+    padding-top: 6px; /* padding => marge intérieur */
+}
+
+nav{
+    height: 40px;
+    background-color: aqua;
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 6px;
+}
+
+main{
+    border: 20px solid greenyellow;
+    background-color: gray;
+    height: 500px;
+    text-align: center;
+}

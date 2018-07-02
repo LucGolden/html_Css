@@ -1,0 +1,66 @@
+body{
+    font-family: sans-serif;
+    font-size: 1.5em;
+
+}
+ul{
+    /* sélectionne TOUTES les listes <ul> */
+    list-style: none;/* supprime les puces*/
+    float: left;/**/
+    margin: 0;/* marge extérieur*/
+    padding: 0;/* marge intérieur */
+
+}
+.left, .right{
+    margin-top: 5em;
+
+}
+.left ul{/* les <ul> qui ont un parent direct ayant la classe .left*/
+    margin: 3.2em 0 0 0;
+}
+.left li{/* tous les <li> de la liste ul ayant la classe .left en parent */
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    padding: 1em;
+    width: 10em;
+}
+.left ul li:first-child{/* le 1er <li> uniquement */
+    border-top: 1px solid #ccc;
+}
+/* ===== FIN 1ère COLONNE ===== */
+
+ul.liste li{/* tous les <li> de le lisste <ul> qui a la classe .liste*/
+    border-left: 1px solid #ccc;/* bordure qui ferme la 1ère colonne*/   
+}
+
+.right .change ul li{/* toyus les <li> de la liste <ul> ayant la classe .change elle même enfant de la classe right*/
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding: 1em;
+    width: 10em;
+    text-align: center;
+}
+.right .change ul li:first-child{/* 1er <li>*/
+    background-color: #5d5d5d;
+    color: #ffffff;
+    font-weight: bold;/* épaisseur de la police*/
+    
+}
+.right .change ul li:last-child{/* dernier <li>*/
+    border-bottom: 1px solid #ccc;
+
+}
+/* ====== FIN MISE EN FORME DU TABLEAU ====== */
+
+/* ======= EFFETS DE TRANSITION AU SURVOL DE LA SOURIS:hover ======  */
+.right .change ul:hover{
+    background: linear-gradient(#5d5d5d, #8a8a8a);/* dégradé de haut en bas*/
+    cursor: pointer;/* change l'aspect du curseur*/
+    transform: scale(1.4);/* transform applique un effet 2D et Scale() carrespond à l'échelle du zoom ainsi obtenu par rapport à la taille d'origine*/
+    -moz-transition-duration: 2s;/* duée de l'animation */
+}
+.right .change ul:hover li:first-child{
+    background-color: #ccc;
+
+}
+

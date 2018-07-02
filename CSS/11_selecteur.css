@@ -1,0 +1,79 @@
+*{
+    font-family: sans-serif;
+}
+nav{
+    background: #000;
+    color: #ffffff;
+    padding: 0 0.5em;
+    text-align: center;
+    width: 100%;
+    position: fixed;/* nav fi*/
+    top: 0;
+    left: 0;
+}
+nav a{
+    /*  */
+    float: left;/* effet flottant à gauche */
+    text-decoration: none;/* supprime mise en forme par défaut (l'effet souligné) */
+    color: #ffffff;
+    background: #000;
+    height: 2.8em;/* hauteur */
+    line-height: 2.7em;
+    padding: 0em 2em;/* 2 valeur => 0 pour le haut et bas et 2 pour droite et gauche */
+    font-size: 1.2em;
+    transition: 2s;/* temps de l'animation ici une trasition de 2 seconde au survol de la souris sur mes liens de navigation */
+
+}
+
+nav a:hover{
+    background: #fda500;
+    color: #000;
+}
+main{
+    width: 100%;
+   
+}
+.contenu{
+   width: 66%;
+   height: 225px;
+   margin: 0 auto;
+   background: rgb(218, 179, 107);
+   padding-top: 4em;
+_transition
+}
+
+
+.luc{
+    width: 68%;
+    height: 692px;
+    margin: 0 auto;
+    background-color: aqua;
+    border: 2em solid white;
+    border-left: 1em;
+    
+   
+    
+}
+
+.contenu2{
+    width: 35%;
+    height: 450px;
+    background: rgb(218, 187, 121);
+    padding: 5em 4em;
+    color: #000;
+    float: left;
+    margin: 2em;
+   
+
+}
+.contenu3{
+     width: 35%;
+    height: 400px;
+    background: rgb(218, 187, 121);
+    padding: 5em 4em;
+    color: #000;
+    float: left;
+    margin: 2em;
+
+}
+
