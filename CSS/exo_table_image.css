@@ -1,0 +1,23 @@
+body{
+    width: 50%;
+    margin: 0 auto;
+   
+}
+table{
+     border: 1px solid gray;
+}
+thead{
+    text-align: center;
+}
+.l{
+    color: gray;
+    height: 8em;
+}
+.m{
+    height: 8em;
+}
+.t{
+    height: 6em;
+    color: blue;
+    text-align:center ;
+}

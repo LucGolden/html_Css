@@ -1,0 +1,38 @@
+body{
+    width: 50%;
+    margin: 0 auto; 
+}
+table{
+    border: 2px solid;
+    width: 90%;
+    margin: 15px;
+    border-collapse: collapse; 
+}
+thead{
+    border: 2px solid;
+    height: 8em;
+    text-align: center;
+}
+tfoot{
+    border: 2px solid ;
+    text-align: center;
+}
+.haiti{
+     border: 2px solid ;
+    font-size: 100%;
+}
+.luc{
+    border: 2px solid;
+    height: 4em;
+    text-align: center;
+}
+#m{
+   border: 2px solid;
+    height: 10em;
+    text-align: center;  
+}
+.j{
+   border: 2px solid;
+    height: 4em;
+    text-align: center;    
+}
