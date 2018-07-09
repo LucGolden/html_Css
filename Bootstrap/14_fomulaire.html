@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulaire</title>
+</head>
+<body>
+    <form method="post" action="" enctype="">
+        <!-- METHOD = comment circulent les donnés en PHP, ENTYPE concernent la récupération des fichiers, ACTION est l'url de destination des données -->
+        <label for=""></label>
+        <input type="text" id="" name="" required>
+        <br>
+        <!-- ID fait le lien avec le FOR du label en HTML le NAME est récupéré en PHP; Ce type d'ID étant un formulaire il y a pas de soucis de l'imiter l'utilisation de l'attribut ID -->
+        <label for="mdp">Mot de passe *</label>
+        <input type="password" id="mdp" name="mdp" required>
+        <br>
+
+        <label for="email">Email *</label>
+        <!-- pour champs obligatoire required de l'input -->
+        <input type="email" id="email" name="email" placeholder="email" required>
+        <!-- Le PLACEHOLDER est le texte explicatif en grisé dans le champs non encore rempli -->
+
+        <label for="file">Fichier *</label>
+        <input type="file" id="file" name="file">
+        <!-- type file créé un bouton "parcourir" pour aller chercher un fichier -->
+
+        <label for=""></label>
+        <select type="" id="" name="">
+            <!-- liste deroulante avec SELECT et nn INPUT -->
+            <optgroup label="">
+                <!-- option groupe = sous_catégorie dans la liste -->
+                <option value=""></option>
+                <option value=""></option>
+            </optgroup>
+            <optgroup label="">
+                <option value=""></option>
+                <option value=""></option>
+            </optgroup>
+            </select>
+            <br>
+
+        <label for="choix">Choisir</label>
+        <p>
+            <!-- casesv à cocher carrés, CHECKED en coche une part défaut -->
+            <input type="checkbox" name="choix" checked>choix1
+            <input type="checkbox" name="choix" >choix2
+            <input type="checkbox" name="choix" >choix3
+        </p>
+        <label for="civilité">Civilité</label>
+        <p>
+         <!-- cases à cocher rondes, CHECKED en coche une par défaut et une seule peut être choisie -->
+         <input type="radio" name="civilité" value="m">Homme
+         <input type="radio" name="civilité" value="f">Femme
+        </p>
+
+        <label for="ville">Ville</label>
+        <input type="text" id="ville" name="ville" list="france">
+        <datalist id="france">
+            <!-- la datalist permet de suggérer lorsque l'utilisateur tape. couplé avec du PHP pour aller faire un lien avec une base de données -->
+            <option>Lyon</option>
+            <option>Paris</option>
+            <option>Marseille</option>
+        </datalist>
+        <br>
+
+        <label for="cp">Code Postal</label>
+        <input type="text" id="id" name="id" maxlength="5" pattern="[0-9]{5}">
+        <br>
+        <!-- maxlenth impose un max de caractères et pattern permet d'imposer le type de caractères numériques et comme PATTERN permet de preciser le nombre de caracteres max, on peut enlever MAXLENGHT ici [on le garde pour la connaissance] -->
+
+        <label for="adress">Adresse</label>
+        <textarea name="adress" id="adress" cols="25" rows="15"></textarea>
+        <br>
+        <!-- zone de texte avec les reglages de sa taille ROWS et COLS -->
+
+        <label for="jauge">Jauge</label>
+        <input type="range" min="0" max="50" value="25" id="jauge">
+        <br>
+        <!-- MIN et MAX correspond à l'echlle et VALUE à la place du curseur par défaut, ici au milieu -->
+
+        <label for="couleur">Couleur</label>
+        <input type="color">
+        <br>
+
+        <input type="sumit" name="inscription" value="S'inscrire">
+        <input type="reset" name="efface" value="Recommencer">
+        <br>
+        
+
+
+    </form>
+</body>
+</html>
