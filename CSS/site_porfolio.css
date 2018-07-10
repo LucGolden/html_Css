@@ -1,0 +1,25 @@
+body{
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;/* EMMET tac+tab*/
+    font-family: sans-serif;
+    background: #fff;
+}
+
+div#conteneur{
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    border: 2px solid #fff;
+    background: #fff;
+}
+h1#header{
+    height: 100px;
+    background: url(../img/images509.jpg) left top;
+    margin: 0;
+    text-align: center;
+    font-family: 'Chonburi', cursive;
+    color:red;
+    /* <link href="https://fonts.googleapis.com/css?family=Chonburi" rel="stylesheet"> */
+
+}
