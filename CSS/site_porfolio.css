@@ -1,25 +1,53 @@
 body{
-    margin: 10px 0;
+    width: 80%;
+    margin: 0 auto;
     padding: 0;
     text-align: center;/* EMMET tac+tab*/
     font-family: sans-serif;
-    background: #fff;
+    
 }
 
 div#conteneur{
     width: 80%;
     margin: 0 auto;
     text-align: left;
-    border: 2px solid #fff;
+    border: 2px solid rgb(172, 34, 34);
     background: #fff;
 }
-h1#header{
+header{
     height: 100px;
-    background: url(../img/images509.jpg) left top;
+    background: url(../img/images509.jpg)left top;
     margin: 0;
     text-align: center;
     font-family: 'Chonburi', cursive;
-    color:red;
+    color: blue;
+    bottom: 0;
     /* <link href="https://fonts.googleapis.com/css?family=Chonburi" rel="stylesheet"> */
 
+}
+nav{
+    width: 40%;
+    height: 70px;
+    background: white;
+    position: relative;
+    right: 25px;
+    text-align: center;
+    color: blue; 
+    /* border: 1px solid black; */
+}
+a{
+    text-decoration: none;
+}
+section{
+   float: left;
+   width: 48.5%;
+   color: blue;
+   border: 1px solid black;
+   margin-top: 25px;
+   background-image: url(../img/P1D3378463G.jpg);
+  
+}
+.g{
+    float: right;
+    text-align: left;
 }
