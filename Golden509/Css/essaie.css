@@ -1,0 +1,83 @@
+.conteneur{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+.bg ul li{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+    
+}
+
+a{
+   float: right;
+    text-decoration: none;
+    color: black; 
+    padding-right: 6px;
+    
+}
+.bg{
+    color: aliceblue;
+    word-spacing: 10px;
+    background-image: url(../img/bfc4e9ce.jpg);
+}
+
+section{
+    width: 100%;
+    height: 431px;
+    border: 2px solid red;
+}
+
+.ga{
+    width: 40%;
+    height: 200px;
+    text-align: center;
+    float: left;
+    padding-top: 100px;  
+}
+.dr{
+   width: 60%;
+   height: 431px;
+   float: right;
+}
+img{
+    width: 620px;
+    height: 431px;   
+}
+.l{
+    float: right;
+}
+/* partie 2 */
+
+.gau{
+    width: 60%;
+    height: 430px;
+    float: left;
+    padding-bottom: 35px;
+}
+.dro{
+    width: 40%;
+    height: 200px;
+    float: right;
+    text-align: center;
+    padding-top: 100px;
+}
+/* partie 3 */
+
+
+/* .gauc{
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    /* float: left; 
+    padding-top: 100px;  
+
+}
+.droi{
+    width: 60%;
+   height: 431px;
+   float: right;
+} */
+
