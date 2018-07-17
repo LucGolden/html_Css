@@ -1,53 +1,46 @@
 body{
     width: 80%;
     margin: 0 auto;
-    padding: 0;
-    text-align: center;/* EMMET tac+tab*/
+    /* padding: 0; */
+    /* text-align: center;EMMET tac+tab */
     font-family: sans-serif;
     
 }
 
-div#conteneur{
-    width: 80%;
-    margin: 0 auto;
-    text-align: left;
-    border: 2px solid rgb(172, 34, 34);
-    background: #fff;
-}
+
 header{
-    height: 100px;
-    background: url(../img/images509.jpg)left top;
+    height: 600px;
+    background: linear-gradient(to left, #fff, red, #fff, red, #fff, red, #fff);
     margin: 0;
     text-align: center;
     font-family: 'Chonburi', cursive;
-    color: blue;
     bottom: 0;
     /* <link href="https://fonts.googleapis.com/css?family=Chonburi" rel="stylesheet"> */
+    
 
 }
-nav{
-    width: 40%;
-    height: 70px;
-    background: white;
-    position: relative;
-    right: 25px;
-    text-align: center;
-    color: blue; 
-    /* border: 1px solid black; */
+#header{
+    margin-top: 300px;
+    /* background: linear-gradient( red, #fff) ; */
+    display: inline-block;
+    color: #fff; 
+   
 }
+nav ul li{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+    
+}
+ul{
+    /* float: right; */
+    position: relative;
+    top: 50px;
+    right: 10px;
+}    
 a{
     text-decoration: none;
-}
-section{
-   float: left;
-   width: 48.5%;
-   color: blue;
-   border: 1px solid black;
-   margin-top: 25px;
-   background-image: url(../img/P1D3378463G.jpg);
-  
-}
-.g{
-    float: right;
-    text-align: left;
+    font-family: fantasy;
+    font-size: 20px
+    
 }
