@@ -1,12 +1,26 @@
+body{
+    background: #9fc5b6;
+    padding: 150px 150px;
+}
+
 .conteneur{
     width: 80%;
     height: 80;
     /* border: 1px solid black; */
     margin: 0 auto;
+    background-color: #fff;
 }
 
 header{
     background-image: url(../img/woddPlank.jpg);
+    height: 600px;
+}
+.ee{
+    text-decoration: underline; 
+    color: #000000;
+    font-size: 25px;
+    display: inline-block;
+    /* padding-bottom: 5px; */
 }
 
 h1, #soir{
@@ -40,8 +54,8 @@ h1, #soir{
 .nav_bar ul{
     display: inline-block;
     position: absolute;
-    top: 0;
-    right: 10%;
+    top: 170px;
+    right: 18%;
     }
 
     .nav_bar ul li{
@@ -51,18 +65,57 @@ h1, #soir{
         margin: 0px 20px;
     }
 span{
-    background-color: #e63770;
+    color: #e63770;
 }
 .logo{
-
     image-orientation: flip;
+    position: absolute;
+    bottom: 84%;
+    right: -64px;
+} 
+.logo, #triangle {
     width: 250px;
-    height: 250px;
-    margin-left: 43%;
-    margin-bottom: 3%
+    /* height: 250px;  */
+    margin-left: 43%; 
+    margin-bottom: 0%;
+    margin-top: 85px;
+    
+}
+#triangle{ 
+  
+    width: 0;
+    position: relative;
+    border-top: 150px solid fuchsia;
+    border-left: 150px solid transparent;
+    top: 100px;
+}
+.fleche{
+
+    height: 50px;
+
+    width: 50px;
+
+    border-top-left-radius: 100%;
+
+    border-top-right-radius: 0%;
+
+    border-bottom-left-radius: 0%;
+
+    border-bottom-right-radius: 0%;
+
+    border-bottom: 5px solid red;
+
+    border-right: 5px solid red;
+
+    transform: rotate(45deg);
+
+    margin-left: 49%;
+
+    position: relative;
+
+    bottom: -162px;
 
 }
-
  /* section 1 */
 .a {
     width: 40%;
@@ -235,5 +288,5 @@ li{
 
 #soir{
     margin: 0;
-
+    text-transform: uppercase;
 } 
