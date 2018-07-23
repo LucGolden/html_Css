@@ -73,12 +73,12 @@ hr{
 /* debut de la NAV */
 nav{
     height: 20px;
-     background: #3fc9fa;
-     text-transform: none;
+    background: #3fc9fa;
+    /* text-transform: none; */
 }
 ul li{
     list-style: none;
-    text-align: center;
+    /* text-align: center; */
     padding: 0 88.3px;
    
     
