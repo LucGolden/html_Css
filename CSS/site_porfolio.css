@@ -1,37 +1,43 @@
 body{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     /* padding: 0; */
     /* text-align: center;EMMET tac+tab */
     font-family: sans-serif;
-    
+    background-image: url(../img/wallpapers-cool9.jpg);
 }
 
 
 header{
-    height: 600px;
-    background: linear-gradient(to left, #fff, #3f1873, #fff, #3f1873, #fff);
+    height: 730px;
+   
     margin: 0;
     text-align: center;
     font-family: 'Chonburi', cursive;
+    /* font-family: 'Freckle Face', cursive; */
     bottom: 0;
     /* <link href="https://fonts.googleapis.com/css?family=Chonburi" rel="stylesheet"> */
-    
+     
 
+}
+.span{
+    box-shadow: 0 0 25px 15px #9d43f9;
+    border-radius: 10px;
+    
 }
 #header{
     margin-top: 300px;
     /* background: linear-gradient( red, #fff) ; */
     display: inline-block;
-    color: #fff; 
+    color: #9d43f9; 
     font-size: 100px;
-   
+    
 }
 nav ul li{
     list-style: none;
     display: inline;
     margin: 0px 20px;
-    
+    box-shadow: 0 0 15px 5px #9d43f9;
 }
 ul{
     /* float: right; */
