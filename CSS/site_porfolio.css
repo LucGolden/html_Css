@@ -21,7 +21,7 @@ header{
 
 }
 .span{
-    box-shadow: 0 0 25px 15px #9d43f9;
+    box-shadow: 0 0 25px 15px #00C1F8;
     border-radius: 10px;
     
 }
@@ -29,7 +29,7 @@ header{
     margin-top: 300px;
     /* background: linear-gradient( red, #fff) ; */
     display: inline-block;
-    color: #9d43f9; 
+    color: #00C1F8; 
     font-size: 100px;
     
 }
@@ -37,7 +37,7 @@ nav ul li{
     list-style: none;
     display: inline;
     margin: 0px 20px;
-    box-shadow: 0 0 15px 5px #9d43f9;
+    box-shadow: 0 0 15px 5px #00C1F8;
 }
 ul{
     /* float: right; */
@@ -49,10 +49,14 @@ a{
     text-decoration: none;
     font-family: fantasy;
     font-size: 18px ; 
-    color: #3f1873;
+    color: #00C1F8;
 }
 a:hover{
     background: #3f1873;
     -moz-transition-duration: 2s;
+    color: #fff;
+}
+.activ{
+    background-color: #00C1F8;
     color: #fff;
 }

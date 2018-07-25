@@ -45,7 +45,8 @@ h1{
 
     font-size: 45px;
 
-    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Do Hyeon', sans-serif;
 
     color: #08bc05;
 
@@ -107,7 +108,7 @@ strong{
 
 header{
 
-    background: #08bc05;
+    /* background: #484b54; */
 
     height: 175px;
 
@@ -119,7 +120,7 @@ header{
 
     width: 25%;
 
-    background: #65f063;
+    /* background: #484b54; */
 
     padding: 15px;
 
@@ -133,7 +134,7 @@ header{
 
     width: 50%;
 
-    background: gray;
+    /* background: #484b54; */
 
     padding-top: 50px; /* EMMET pt50 + tab*/
 
@@ -163,13 +164,230 @@ header{
 
 header a{
 
-    color: gray;
+    color: #08bc05;
 
     text-decoration: none;/* EMMET tdn + tab*/
 
 }
-
 /*-------fin header -------*/
+.activ{
+    background-color: black;
+    color: #08bc05;
+}
+
+/*------------- DBUT NAV -------------*/
+nav a{
+    color: #aaa;
+    text-decoration: none;
+    border: 2px solid #57ff55;
+    font-size: 18px;
+    margin: auto;
+    padding:2px 10px;
+    font-family: 'Do Hyeon', sans-serif;
+    border-radius: 10px 0;
+    display: inline-block;
+    position: relative;
+    left: 237px;
+    margin: 16px;
+}
+a:hover{
+    background: #08bc05;
+    -moz-transition-duration: 1s;
+    color: #484b54;
+    border: 2px solid #fff;
+}
+/*------------ FIN NAV --------------*/
+
+#zoning{
+    width: 60%;
+    height: 350px;
+    margin: auto;
+    /* background-color:  */
+    border: 7px solid #08bc05;
+     border-radius:20px 20px;
+}
+#zoning2{
+    width: 60%;
+    height: 100px;
+    /* background-color: #57ff55; */
+    border: 7px solid #57ff55;
+    margin: auto;
+    border-radius: 20px 20px;
+}
+footer{
+    width: 100%;
+    height: 40px;
+    border:5px solid #08bc05;
+    border-radius: 30px 0;
+}
+.clear{
+    clear: both;
+}
+
+/* DEBUT PAGE TEXTE */
+#texte{
+    width: 60%;
+    height: 551px;
+    /* background-color: #61656b; */
+    border: 5px solid  #61656b;
+    border-radius: 20px;
+    margin: auto;
+}
+#texte h2{
+    text-align: left;
+}
+.texte{
+    width: 100%;
+    height: 120px;
+    color: #08bc05;
+    margin-top: 60px;
+    padding: 10px;
+}
+
+/* FIN PAGE TEXTE */
+
+/* DEBUT PAGE SELECTEURS */
+#select{
+    width: 60%;
+    height: 615px;
+    /* background-color: #61656b; */
+    border: 5px solid #61656b;
+    margin: auto;
+    border-radius: 20px;
+}
+#select h2{
+    text-decoration: none;
+    color: black;
+    text-shadow: none;
+}
+#select h3{
+    color: blue;
+    margin-left: 59px;
+    margin-top: 30px;
+    margin-bottom: 28px;    
+    text-shadow: none;  
+}
+ul li{
+    list-style: none;
+}
+#petit{
+    color: orange;
+    margin-left: 15px;
+}
+.rouge{
+    color: red;
+    margin-left: 15px;
+    text-align: left;
+    margin-left: 15px;
+}
+.noir{
+    color: black;
+    text-align: left;
+    margin-left: 15px;
+    
+}
+#gras{
+    color: orange;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 15px;
+}
+#zoneA{
+    color: red;
+    font-size: 40px;
+    margin-left: 15px;
+}
+#zoneB{
+    color: #08bc05;
+    margin-left: 15px;
+
+}
+#zoneB span{
+    color: aqua;
+}
+#zoneC{
+    color: green;
+    font-size: 40px;
+    margin-left: 15px;
+}
+#zoneD{
+    color: #fff;
+    margin-left: 15px; 
+}
+#zoneD span{
+    color: greenyellow;
+    font-size: 40px;
+    font-style: italic;
+}
+#tour{
+    position: relative;
+    left: 384px;
+    top: 50px;
+
+}
+
+/* le pseudo-class :firs-of-type permet de cibler le premier élément dont l'élément parent est d'un type donné (éx: cibler le premier élément fils d'un div  ...last-of-style:le contraire..........les psseudo-class:nth-of-style(x)pour cilbler la ligne dont le numero est compris entre les () de 1 à x*/
+
+/* FIN PAGE SELECTEURS */
+
+
+/* DEBUT PAGE IMAGES */
+#section_image{
+    width: 52%;
+    height: 1196px;
+    background-color: #61656b;
+    margin: auto;
+}
+.image{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/img/fond.jpg);
+    margin-top: 20px;
+}
+.image p{
+    width: 70%;
+    height: 132px;
+    background-color: rgba(255, 255, 255, 0.356);
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 205px; 
+    bottom: 50px; 
+}
+#image_pont img{
+
+    width: 70%;
+    position: relative;
+    top: 50px;
+    /* margin: auto; */
+    border: 2px solid yellow;
+}
+/* .pont{
+    width: 70%;
+    float: left;
+    border: 2px solid yellow;
+} */
+
+
+
+/* FIN PAGE IMAGES */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
