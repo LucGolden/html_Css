@@ -23,8 +23,11 @@ header{
 .span{
     box-shadow: 0 0 25px 15px #00C1F8;
     border-radius: 10px;
+
+
     
 }
+
 #header{
     margin-top: 300px;
     /* background: linear-gradient( red, #fff) ; */

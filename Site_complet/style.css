@@ -220,9 +220,7 @@ footer{
     border:5px solid #08bc05;
     border-radius: 30px 0;
 }
-.clear{
-    clear: both;
-}
+
 
 /* DEBUT PAGE TEXTE */
 #texte{
@@ -335,8 +333,15 @@ ul li{
 #section_image{
     width: 52%;
     height: 1196px;
-    background-color: #61656b;
+    /* background-color: #484b54; */
+    border: 5px solid  #08bc05;
     margin: auto;
+}
+#section_image h3{
+    text-shadow: none;
+    font-family: sans-serif;
+    color: black;
+
 }
 .image{
     width: 100%;
@@ -347,7 +352,7 @@ ul li{
 .image p{
     width: 70%;
     height: 132px;
-    background-color: rgba(255, 255, 255, 0.356);
+    background-color: #dadada60;
     border-radius: 20px;
     text-align: center;
     margin: auto;
@@ -355,25 +360,183 @@ ul li{
     top: 205px; 
     bottom: 50px; 
 }
-#image_pont img{
 
-    width: 70%;
-    position: relative;
-    top: 50px;
-    /* margin: auto; */
-    border: 2px solid yellow;
+#entre{
+    width: 52%;
+    height: 50px;
+    background-color: #dadada60;
+    margin: auto;
+
 }
-/* .pont{
-    width: 70%;
-    float: left;
-    border: 2px solid yellow;
-} */
 
+#section_img h3{
+    text-align: center;
+    text-shadow: none;
+    font-family: sans-serif;
+    color: black;
+
+}
+
+#section_img{
+    width: 52%;
+    height: 630px;
+    /* background-color: */
+    border: 5px solid  #08bc05;
+    margin: auto;
+
+}
+
+/* ------------ANIMATION-------------- */
+.pont img:hover {
+    -moz-transform: rotate(5deg) scale(1.10);
+    -webkit-transform: rotate(5deg) scale(1.10);
+    -o-transform: rotate(5deg) scale(1.10);
+    -ms-transform: rotate(5deg) scale(1.10);
+    transform: rotate(20deg) scale(1.10);
+    opacity: 1;
+}
+
+
+.pont img{
+    
+    float: left;
+    margin: auto;
+    position: relative;
+    left: 160px;
+    margin: 20px; 
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px 2px rgb(230, 16, 16);
+
+    /* ----------ANIMATION--------- */
+
+     -moz-transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    -ms-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+    opacity: 2.7;
+
+}
+
+/* --------ANIMATION---------- */
+#pont img:hover{
+    -moz-transform: rotate(5deg) scale(1.10);
+    -webkit-transform: rotate(5deg) scale(1.10);
+    -o-transform: rotate(5deg) scale(1.10);
+    -ms-transform: rotate(5deg) scale(1.10);
+    transform: rotate(380deg) scale(1.10);/*effet rotation complet (360deb)*/
+    opacity: 1;
+
+}
+
+#pont img{
+    position: relative;
+    left: 360px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px 2px rgb(230, 16, 16);
+
+/* -----ANIMATION------ */
+     
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    -ms-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+    opacity: 2.7;
+}
 
 
 /* FIN PAGE IMAGES */
 
 
+/* --------- BOUTON TOP ---------- */
+
+button{
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    font-size: 250%;
+    color: #04fa0062;
+    /* color: rgba(151, 216, 178, 0.5) */
+
+}
+/* --------- FIN BOUTON TOP ---------- */
+
+/* ---------- PAGE POSITION ------------ */
+.position {
+    width: 52%;
+    /* height: 1196px; */
+    /* background-color: #484b54;  */
+    border: 5px solid  #08bc05;
+    margin: auto;
+}
+
+.centre{
+    background: red; 
+    height: 200px;
+    width: 500px;
+    margin: 0 auto;
+   
+}
+.absolute{
+    position: absolute;
+    background: orangered;
+    width: 100px;
+    height: 100px;
+    top: 29%;
+    left: 10%;
+}
+.relative{
+    position: relative;
+    background: rgb(2, 2, 82);
+    width: 295px;
+    height: 314px;
+    margin: auto;
+}
+.relative div{
+    position: absolute;
+    background: yellowgreen;
+    width: 60px;
+    height: 60px;
+    right: 0;
+}
+
+.p1{
+    width: 30%;
+    padding: 10px 0 10px 0;
+    background: #fff;
+}
+.p1 p{
+    font-size: 20px;
+    color: red;
+    padding-left: 15px;
+}
+
+.p2{
+    margin-top:10px;
+    width: 50%;
+    padding: 10px 0 10px 0;
+    background:blue;
+}
+.p2 p{
+    font-size: 20px;
+    color: red;
+    padding-left: 15px;
+}
+.p3{
+    margin-top:10px;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    background:red;
+}
+.p3 p{
+    font-size: 20px;
+    color: white;
+    padding-left: 15px;
+}
 
 
 
@@ -381,16 +544,186 @@ ul li{
 
 
 
+/* ---------- FIN PAGE POSITION ------------ */
+
+/* ----------- ZONING --------- */
+#zoningg{
+    width: 75%;
+    height: 500px;
+    margin: auto;
+}
+.zone{
+    color: #fff;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.haut{
+    width: 100%;
+    height: 70px;
+    background: #f7f39a;
+    text-align: center;
+    margin: auto;
+
+}
+.gauche{
+    width: 20%;
+    height: 86%;
+    background: #a3de83;
+    float: left;
+}
+.droite{
+    width: 80%;
+    height: 86%;
+    background: #38817a;
+    float: right;
+    text-align: center;
+}
+/* ------zoning 2---------  */
+#zoning22{
+    width: 60%;
+    height: 500px;
+    margin: auto;
+}
+
+.header_zoning{
+    width: 100%;
+    height: 70px;
+    background: #f8f5e4;
+    text-align: center;
+}
+.aside{
+    width: 15%;
+    height: 430px;
+    background: #10828c;
+    float: left;
+     text-align: center;
+}
+.middle{
+    width: 70%;
+    height: 430px;
+    float: left;
+    background: #0e3047;
+    text-align: center;
+}
+.d_aside{
+    width: 15%;
+    height: 430px;
+    background: #10828c;
+    float: right;
+    text-align: center;
+}
+
+/* zoning 3 */
+#zoning33{
+    width: 70%;
+    height: 500px;
+    /* border: 2px solid red; */
+    margin: auto;
+}
+
+.section_g{
+    width: 50%;
+    height: 430px;
+    background: #205d67;
+    float: right;
+    text-align: center;
+    color: #fff;
+}
+.section_d{
+     width: 50%;
+    height: 430px;
+    background: #205d67;
+    /* float: right; */
+    text-align: center;
+    color: #fff;
+}
+.section_b{
+    width: 100%;
+    height: 70px;
+    background: #639a67;
+    text-align: center;
+
+}
+
+/* ZOning 4 */
+
+#zoning44{
+    width: 60%;
+    height: 749px;
+    margin: auto;
+    background: #fff;
+    border: 2px solid black;
+}
+.haut_zoning4{
+    width: 100%;
+    height: 80px;
+    background: #d8dfe2;
+    text-align: center;
+}
+.nav_zoning4{
+    width: 100%;
+    padding: 10px;
+    background: #71adb5;
+    text-align: center;
+}
+.tr_zoning4{
+    width: 100%;
+    height: 5px;
+    background: #6acafc;
+}
+.section_zoning4{
+     width: 93%;
+     height: 500px;
+     background: #176d81;
+     margin: 20px;
+     text-align: center;
+     color: #fff;
+}
+.footer_zoning4{
+    width: 100%;
+    height: 80px;
+    background: #0d3446;
+    text-align: center; 
+}
+
+/* ZONING 5 */
+#zoning55{
+    width: 90%;
+    height: 750px;
+    background: #fff;
+    border: 2px solid black;
+    margin: auto;
+}
+.h_zoning5{
+    width: 100%;
+    height: 100px;
+    background: #f8d771;
+    text-align: center;
+}
+.n_zoning5{
+     width: 100%;
+     padding: 8px;
+     text-align: center;
+     background: #c19718;
+}
+.tr_zoning5{
+    width: 100%;
+    height: 5px;
+    background: #7a5f0b;
+}
+.main_zoning5{
+    width: 80%;
+    height: 450px;
+    border: 2px solid blue;
+    margin-left: 81px;
+    margin-top: 81px;
+
+}
 
 
 
+/* ----------- FIN ZONING --------- */
 
-
-
-
-
-
-
-
-
- 
+.clear{
+    clear: both;
+}
