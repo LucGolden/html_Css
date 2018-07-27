@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Tableaux</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <!-- Choisissez une police Google Fonts et ajoutee-là ici: -->
+
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+
+    <!-- on ira ajouter dans le css ensuite : font-family: 'Dancing Script', cursive;-->
+
+    <!-- <link rel="stylesheet" href="font-awesome/fontawesome-free-5.1.1-web/css/fontawesome.min.css"> -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+        crossorigin="anonymous">
+
+    <meta name="description" content="site HTML-CSS">
+
+</head>
+
+<body>
+
+    <!-- header>div*4-->
+
+    <header>
+
+        <div id="logo">
+
+            <!-- a>button>i-->
+
+            <a href="#logo">
+
+                <button type="button">
+
+                    <i class="fas fa-arrow-circle-up" aria-hidden="true"></i>
+
+                    <!-- fa => classe de FontAwersome  -->
+
+                    <!-- aria- ... accès de contenus web plus faciles pour les handicapés => https://developer.mozilla.org/fr/docs/Accessibilit%C3%A9/ARIA -->
+
+                </button>
+
+            </a>
+
+            <img src="img/logo.png" alt="logo">
+
+        </div>
+        <!-- ./ #logo -->
+
+
+
+        <div id="slogan">
+            <h1>Site HTML CSS multipages</h1>
+        </div>
+
+        <div id="social">
+
+            <a href="https://www.instagram.com" target="_blank">
+
+                <!-- target="blank" => pour ouvrir un lien dans une autre page -->
+
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+
+            </a>
+
+            <a href="https://www.facebook.com" target="_blank">
+
+                <i class="fab fa-facebook-square" aria-hidden="true"></i>
+
+            </a>
+            <a href="https://www.whatsapp.com">
+                <i class="fab fa-whatsapp-square" aria-hidden="true"></i>
+            </a>
+
+        </div>
+
+        <div class="clear"></div>
+
+    </header>
+
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="texte.html">Texte</a>
+        <a href="selecteur.html">Selecteur</a>
+        <a href="image.html">Image</a>
+        <a href="position.html">Position</a>
+        <a href="zoning.html" >Zoning</a>
+        <a href="tableau.html" class="activ">Tableau</a>
+        <a href="liste.html">Liste</a>
+        <a href="lien_menu.html">Lien & menu</a>
+        <a href="formulaire.html">Formulaire</a>
+        <a href="multimedia.html">Multimedia</a>
+        <a href="animation.html">Animation</a>
+    </nav>
+    <main class="position">
+        <h2>Tableau</h2>
+
+        <table>
+            <caption> <blockquote><i class="fas fa-plane-departure"></i><p>Vols PAris Rome</p></blockquote></caption>
+             
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>02/08/2018</th>
+                    <th>03/08/2018</th>
+                    <th> 05/08/2018</th>
+                </tr>
+            </thead>
+
+            <tfoot>
+                <tr>
+                    <th></th>
+                    <th>02/08/2018</th>
+                    <th>03/08/2018</th>
+                    <th> 05/08/2018</th>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <th><strong>Air France</strong></th>
+                    <th><strong>Alitalia</strong></th>
+                </tr>
+                <tr>
+                    <td>départ 10h-Arrivé 13h</td>
+                    <td>200€</td>
+                    <td>Départ 6h-Arrivé 9h</td>
+                    <td>120€</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <th></td>
+                    <td></td>
+                </tr>
+            </tbody>
+
+
+        </table>
+
+
+
+    </main>
+
+
+</body>

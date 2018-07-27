@@ -624,7 +624,7 @@ button{
 .section_g{
     width: 50%;
     height: 430px;
-    background: #205d67;
+    background: #639a67;
     float: right;
     text-align: center;
     color: #fff;
@@ -640,7 +640,7 @@ button{
 .section_b{
     width: 100%;
     height: 70px;
-    background: #639a67;
+    background: #d8ebb5;
     text-align: center;
 
 }
@@ -689,7 +689,7 @@ button{
 /* ZONING 5 */
 #zoning55{
     width: 90%;
-    height: 750px;
+    height: 661px;
     background: #fff;
     border: 2px solid black;
     margin: auto;
@@ -712,17 +712,294 @@ button{
     background: #7a5f0b;
 }
 .main_zoning5{
-    width: 80%;
-    height: 450px;
-    border: 2px solid blue;
-    margin-left: 81px;
-    margin-top: 81px;
-
+    width: 94%;
+    height: 412px;
+    margin-left: 26px;
+    margin-top: 19px;
+}
+.zone1{
+    width: 50%;
+    height: 206px;
+    background: #d6bc6b;
+    text-align: center;
+    float: left;
+}
+.zone2{
+    width: 50%;
+    height: 206px;
+    background: #fce38a;
+    text-align: center;
+    float: right;
+}
+.zone3{
+    width: 50%;
+    height: 206px;
+    background: #fce38a;
+    text-align: center;
+    float: left;
+}
+.zone4{
+    width: 50%;
+    height: 206px;
+    background: #d6bc6b;
+    text-align: center;
+    float: right;
+}
+.f_zoning5{
+    width: 100%;
+    height: 60px;
+    background: #f8d771;
+    text-align: center;
+    margin-top: 25px;
 }
 
+/* Zoning 6 */
+#zoning_6{
+    width: 80%;
+    height: 833px;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#bout{
+    width: 100%;
+    height: 187px;
+}
+.bout1{
+    width: 25%;
+    height: 187px;
+    float: left;
+    background: #203562;
+}
+.bout2{
+    width: 50%;
+    height: 187px;
+    float: left;
+    background: #3e588f;
+    
+}
+.bout3{
+    width: 25%;
+    height: 187px;
+    float: right;
+    background: #203562;
+    
+}
+
+#menu_z6{
+    width: 100%;
+    padding-top: 12px;
+    background: #0b5269;
+    
+}
+#zone_de_gauche{
+    width: 20%;
+    height: 570px;
+    float: left;
+    background: #446878;
+}
+#ab{
+    width: 80%;
+    height: 220px;
+    float: right;
+}
+.ab{
+    width: 50%;
+    height: 220px;
+    background: #c0c5cd;
+    float: left;
+}
+.ba{
+    width: 50%;
+    height: 220px;
+    background: #203562;
+    float: right;
+}
+
+#slideshow{
+    width: 80%;
+    height: 220px;
+    background: #314a52;
+    float: right;
+}
+
+#cdef{
+    width: 80%;
+    height: 130px;
+    /* border: 2px solid red;  */
+    float: right;
+}
+.c{
+   width: 25%;
+   height: 130px;
+   float: left;
+   background: #c0c5cd; 
+}
+.d{
+   width: 25%;
+   height: 130px;
+   float: left;
+   background: #203562; 
+}
+#bas_z6{
+    width: 100%;
+    padding-bottom: 20px;
+    background: #0b5269;
+}
+
+/* ---------ZONING ULTIME--------- */
+#parent{
+    width: 92%;
+    height: 800px;
+    margin: auto;
+    border: 2px solid #fff;
+    color: #fff;
+}
+ 
+.enfant_d{
+    width: 20%;
+    height: 797px;
+    background: #531253;
+    float: left;
+    border: 2px solid #fff;
+}
+.enfant_d p{
+    margin-left: 80px;
+    margin-top: 50px;
+     font-size: 25px;
+}
+.enfant0{
+    width: 60%;
+    height: 148px;
+    float: left;
+    background: #055864;
+    border: 2px solid #fff;
+}
+.enfant0 p{
+    margin-left: 270px;
+    margin-top: 55px;
+    font-size: 35px;
+}
+.enfant_m{
+    width: 60%;
+    height: 500px;
+    float: left;
+    border: 2px solid #fff;
+}
+    .m1{
+       width: 70%;
+       height: 150px;
+       float: left;
+        background: #531253;
+        border: 2px solid #fff;
+    }
+    .m1 p{
+    margin-left: 177px;
+    margin-top: 55px;
+    font-size: 22px;
+}
+    .m2{
+        width: 30%;
+        height: 360px;
+        background: #531253;
+        border: 2px solid #fff;
+        float: right;
+    }
+    .m2 p{
+       margin-left: 70px;
+       margin-top: 55px;
+       font-size: 22px;
+    }
+
+    .m3{
+        width: 30%;
+        height: 360px;
+        background: #531253;
+        border: 2px solid #fff;
+        float: left; 
+    }
+     .m3 p{
+       margin-left: 70px;
+       margin-top: 55px;
+       font-size: 22px;
+    }
+    .m4{
+       width: 40%;
+       height: 210px;
+       background: #531253;
+       border: 2px solid #fff;
+       float: left;
+    }
+     .m4 p{
+       margin-left: 95px;
+       margin-top: 95px;
+       font-size: 22px;
+    }
+    .m5{
+        width: 70%;
+       height: 150px;
+       float: right;
+        background: #531253;
+        border: 2px solid #fff; 
+    }
+    .m5 p{
+    margin-left: 177px;
+    margin-top: 55px;
+    font-size: 22px;
+    }
+   
 
 
+
+.enfant_g{
+    width: 20%;
+    height: 797px;
+    background: #531253;
+    margin-top: -649px;
+    float: left;
+    border: 2px solid #fff;
+}
+.enfant_g p{
+     margin-left: 80px;
+    margin-top: 50px;
+     font-size: 25px;
+}
 /* ----------- FIN ZONING --------- */
+
+
+
+/* --------TABLEAU PAGE ------------ */
+table{
+    border: 2px solid #6495ed;
+    width: 90%;
+    margin: 25px;
+    border-collapse: collapse;
+}
+thead, tfoot{
+    background-color: d0e3fa;
+    border: 2px solid #6495ed;
+}
+tbody{
+    border: 2px solid #6495ed;
+}
+th{
+    border: 1px dotted #69b7db;/*dotted => pointillés*/
+    padding: 4px; /*marge interieur */
+    background-color: aquamarine;
+    width: 25%;
+}
+td{
+    font-size: 100%;
+    border: 1px dotted #3e28d1; 
+    text-align: center; 
+    padding: 5px;
+}
+td:first-child{
+    text-align: left;
+    background-color: #d5c1db;
+}
+/* --------TABLEAU PAGE END ------------ */
 
 .clear{
     clear: both;
