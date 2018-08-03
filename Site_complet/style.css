@@ -977,29 +977,42 @@ table{
     border-collapse: collapse;
 }
 thead, tfoot{
-    background-color: d0e3fa;
-    border: 2px solid #6495ed;
+    background-color: #08bc05;
+    border: 2px solid #ece5ee77;
 }
 tbody{
-    border: 2px solid #6495ed;
+    border: 2px solid #08bc05;
 }
 th{
-    border: 1px dotted #69b7db;/*dotted => pointillés*/
+    border: 1px solid #ece5ee77;
     padding: 4px; /*marge interieur */
-    background-color: aquamarine;
+    
     width: 25%;
 }
 td{
     font-size: 100%;
-    border: 1px dotted #3e28d1; 
+    border: 1px solid #08bc05; 
     text-align: center; 
     padding: 5px;
+     background-color: #ece5ee77;
 }
 td:first-child{
-    text-align: left;
-    background-color: #d5c1db;
+    text-align: center;
+}
+.border{
+    border: none;
+}
+tr:nth-of-type(1){
+    border: none;
 }
 /* --------TABLEAU PAGE END ------------ */
+
+/* ------------LISTE------------- */
+
+
+
+
+/* ------------FIN LISTE------------- */
 
 .clear{
     clear: both;

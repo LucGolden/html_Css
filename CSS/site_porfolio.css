@@ -21,15 +21,15 @@ header{
 
 }
 .span{
-    box-shadow: 0 0 25px 15px #00C1F8;
+    box-shadow: 0 0 15px 1px #00C1F8;
     border-radius: 10px;
 }
 .span:hover{
     /* background-color: #00C1F8; */
     color: #fff;
-     -moz-transition-duration: 5s;
-      box-shadow: 0 0 15px 5px #fff;
-      font-size: 120px;
+    -moz-transition-duration: 1s;
+    box-shadow: 0 0 15px 5px #fff;
+    font-size: 120px;
 }
 
 #header{
@@ -67,3 +67,36 @@ a:hover{
     background-color: #00C1F8;
     color: #fff;
 }
+
+
+
+h1{
+    animation-duration: 1s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 10%;
+    width: 100%; 
+  }
+
+  to {
+    margin-left: -10%;
+    width: 100%;
+  }
+}
+
+
+/* header{
+  animation-duration: 8s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+} */
+/* 75% {
+  font-size: 300%;
+  margin-left: 25%;
+  width: 150%;
+} */
