@@ -1,0 +1,44 @@
+section{
+    width: 40%;
+    height: 847px;
+    background-color: #273679;
+    margin: 0 auto;
+}
+
+
+div{
+    
+    float: left;
+    margin-left: 40px;
+}
+
+h2{
+    color: #fff;
+    font-family: cursive;
+    text-align: center;
+    font-size: 65px;
+}
+.text{
+    margin-left: 25%;
+}
+.droit{
+   margin-left: 80px;  
+}
+.droite{
+   margin-left: 40px;
+}
+.g{
+    margin-left: 20px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 50px;
+    display: inline-block;
+    position: relative;
+    left: 20px;
+}
+.clear{
+    clear: both;
+}
