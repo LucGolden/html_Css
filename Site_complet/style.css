@@ -1154,6 +1154,210 @@ p a{
 
 /* ---------Fin Liens_Menu-------------- */
 
+/* -------Formulaire-------- */
+
+form {
+  /* Uniquement centrer le formulaire sur la page */
+  margin: 0 auto;
+  width: 80%;
+  /* Encadré pour voir les limites du formulaire */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  background-color: #08bc058c;
+  color: #CCC;
+}
+form div + div {
+  margin-top: 1.5em;
+}
+
+label {
+  /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, textarea {
+  /* Pour s'assurer que tous les champs texte ont la même police.
+     Par défaut, les textarea ont une police monospace */
+  font: 1em sans-serif;
+
+  /* Pour que tous les champs texte aient la même dimension */
+  width: 150px;
+  box-sizing: border-box;
+
+  /* Pour harmoniser le look & feel des bordures des champs texte */
+  border: 1px solid #999;
+  margin-left: 23em;
+}
+
+input:focus, textarea:focus {
+  /* Pour souligner légèrement les éléments actifs */
+  border-color: #000;
+}
+
+input[type*="checkbox"]{
+    margin-left: -4em;
+}
+
+textarea {
+  /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+  vertical-align: top;
+
+  /* Pour donner assez de place pour écrire du texte */
+  height: 5em;
+  width: 15em;
+}
+label[for*="msg"]{
+    margin-top: 3em;
+}
+.button {
+  /* Pour placer le bouton à la même position que les champs texte */
+  padding-left: 90px; /* même taille que les étiquettes */
+}
+
+button[type*="submit"]{
+    position: relative;
+    background-color: #484b54;
+  /* margin-left: .5em; */
+    font-size: 15px;
+    right: 75px;
+    bottom: 29px;
+    color: #08bc05;
+}
+/* ----------FIN FORMULAIRE--------- */
+
+/* -------test menu_deroulant */
+/*****Menu Déroulant*****/
+
+#menuDeroulant{
+
+   height: 650px;
+
+}
+
+#menuDeroulant nav{
+
+   background: transparent;
+
+   border: 1px solid red;
+
+   width: 90%;
+   height: 50px;
+
+   margin: 0 auto;
+
+}
+
+#menuDeroulant nav ul li{
+
+   float: left;
+
+   list-style: none;
+
+   width: 15%;
+   margin: 0 auto;
+
+}
+
+#menuDeroulant ul ul{
+
+   display: none;
+
+}
+
+#menuDeroulant nav ul li ul li {
+
+   border-top: 1px solid #464646
+
+;
+
+   width: 100%;
+
+}
+
+#menuDeroulant nav li {
+
+   background: #ccc;
+
+}
+
+#menuDeroulant nav li a{
+
+   text-decoration: none;
+
+   color: #000;
+
+   padding: 2px 0 2px;
+
+   display: block;
+
+}
+
+#menuDeroulant ul{
+
+   text-align: center;
+
+}
+
+#menuDeroulant nav ul.niveau1 li.sousMenu:hover ul.niveau2{
+
+   display: block;
+}
+
+
+/* ******PAGE MULTIMEDIA************* */
+
+.videofond{
+    padding-left: 0;
+    padding-right: 0;
+}
+.videofond video{
+    position: absolute;
+    z-index: 1; /*ordre de superposition des éléments sur l'axe verticale /!\ et ne fonctionne que sur un élément ayant une position (relative, fixe ou absolute*/
+    width: 100%;
+
+}
+.videotexte{
+    position: relative;
+    width: 100%;
+    height: 500px;  
+}
+.videofond p{
+    position: absolute;
+    z-index: 2;/* il sera visuellement au-dessus de la video z-index:1 */
+    width: 500px;
+    margin: auto;
+    /* background: rgba(225, 225, 225, 0.60); */
+    background: #08bc0560;
+    left: 250px;
+    top: 150px;
+    padding: 20px;
+    font-size: 120%;
+    border-radius: 10px;
+    color: #fff;
+}
+
+iframe[src="https://www.youtube.com/embed/MHYWgf3VqoY"]{
+    width: 100%;
+}
+.you{
+    position: relative;
+    top: 40px;
+    background-color: #08bc0560;
+    width: 100%;
+    height: 500px;
+    border: 1px solid #08bc05
+}
+.audio{
+    text-align: center;
+}
+
+iframe[allowfullscreen]{
+    width: 100%;
+}
+
 .clear{
     clear: both;
 }
