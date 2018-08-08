@@ -10,7 +10,7 @@
 
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Tableaux</title>
+    <title>Animation</title>
 
     <link rel="stylesheet" href="style.css">
 
@@ -98,79 +98,81 @@
         <a href="selecteur.html">Selecteur</a>
         <a href="image.html">Image</a>
         <a href="position.html">Position</a>
-        <a href="zoning.html" >Zoning</a>
-        <a href="tableau.html" class="activ">Tableau</a>
+        <a href="zoning.html">Zoning</a>
+        <a href="tableau.html">Tableau</a>
         <a href="liste.html">Liste</a>
         <a href="lien_menu.html">Lien & menu</a>
         <a href="formulaire.html">Formulaire</a>
         <a href="multimedia.html">Multimedia</a>
-        <a href="animation.html">Animation</a>
+        <a href="animation.html" class="activ">Animation</a>
     </nav>
     <main class="position">
-        <h2>Tableau</h2>
+    
+        <h2>Animation</h2>
+    
+        <section>
+    
+            <h3>Infobulles</h3>
+    
+            <!-- div.infoBulle>(p>a>span)*3 -->
+    
+            <div class="infoBulle">
+    
+                <p>
+    
+                    <a href="#">Amènes ta souris !
+    
+                        <span>Je suis une infobulle</span>
+    
+                    </a>
+                </p>
+                <p>
+                    <a href="#">Ici aussi !
+                 <span>Hello Popup ici</span>
+                    </a>
+                </p>
+                <p>
+                    <a href="#">Un autre
+                        <span>InfoBulle ou Popup c'est pareil</span>
+                    </a>
+                </p>
+            </div>
+        </section>
 
-        <table>
-            <caption> <blockquote><p></p><i class="fas fa-plane-departure"></i>Vols PAris Rome</p></blockquote></caption>
-             
-            <thead>
-                <tr>
-                    <th></th>
-                    <th>02/08/2018</th>
-                    <th>03/08/2018</th>
-                    <th> 05/08/2018</th>
-                </tr>
-            </thead>
-            
-            <tfoot>
-                <tr>
-                    <th></th>
-                    <th>02/08/2018</th>
-                    <th>03/08/2018</th>
-                    <th> 05/08/2018</th>
-                </tr>
-            </tfoot>
-            <tbody>
-                
-                <tr>
-                    
-                     <td><strong>Air France</strong></td>
-                     
+        <section>
+            <h3>effets au survol avec transition et filtres</h3>
+            <ul class="imgeffets">
+                <li>
+                    <img src="img/survol_img1.jpg" alt=""></li>
 
-                    <td>départ 10h-Arrivé 13h</td>
-                    <td>départ 15h-Arrivé 18h</td>
-                    <td>Départ 17h-Arrivé 20h</td>
-                  
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>200€</td>
-                    <td>180€</td>
-                    <td>170€</td>
-                </tr>
-                
-
-                <tr>
-                    <td><strong>Alitalia</strong></t>
-                    <td>Départ 10h - Arrivé 9h</td>
-                    <td>Départ 13h - Arrivé 16h</td>
-                    <td>Départ 21h - Arrivé 00h</td>
-                    
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>120€</td>
-                    <td>250€</td>
-                    <td>100€</td>
-                </tr>
-               
-            </tbody>
+                <li> <img src="img/survol_img2.jpg" alt=""></li>
+                <li> <img src="img/survol_img3.jpg" alt=""></li>
+                <li>  <img src="img/survol_img4.jpg" alt="">
+                </li>
+            </ul>
 
 
-        </table>
-
-
-
+        </section>
+        <section>
+            <h3>Rotation d'un menu en CSS</h3>
+            <article id="menuRotate">
+                <dl class="menu">
+                    <dt class="btnRot">Partager</dt>
+                    <dd>
+                        <a href=""></a>
+                    </dd>
+                    <dd><a href="#">...</a></dd>
+                    <dd><a href="#">Instagrame</a></dd>
+                    <dd><a href="#">FaceBook</a></dd>
+                    <dd><a href="#">Snapchat</a></dd>
+                </dl>
+                <div class="masque"></div>
+                <div class="ombre"></div>
+            </article>
+        </section>
+    
     </main>
+
 
 
 </body>
