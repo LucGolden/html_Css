@@ -1,0 +1,160 @@
+body{
+  font-family: Arial, sans-serif;
+   background-image: url(../img/background.png);
+}
+/* ------Header----------- */
+/* -------- Création de la bar de MENU--------- */
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #C55394;
+}
+h1{
+    display: inline-block;
+    color: #fff;
+    font-family: 'Courgette', cursive;
+    padding: 20px;
+    margin-top: 4px;
+}
+h1:hover{
+    background-color: #EB43A3;
+}
+ul{
+    float: right; 
+    
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    margin-top: -6px;
+}
+nav ul li:hover{
+    background-color: #EB43A3;
+}
+/* -------Fin de la barre de MENU-------- */
+
+/* ------arc en ciel et titre "un jour une licorne----- */
+#jour_licorne{
+
+    width: 50%;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+#jour_licorne h2{
+    position: relative;
+    bottom: 184px;
+    left: 65px; 
+    font-family: 'Courgette', cursive;
+    color: #EB43A3;
+}
+/* ------FIN arc en ciel et titre "un jour une licorne----- */
+/* ------FIN Header----------- */
+
+/* ---------DEBUT DES BLOCS CONTENU---------- */
+/* ----- 1ier bloc le principe ------ */
+#contenu{
+    width: 70%;
+    height: 1285px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 15px 5px #333;
+}
+#le_principe{
+    width: 95%;
+    height: 310px;
+    padding-top: 35px;
+    margin: 0 auto;
+    /* border: 2px solid blue; */
+}
+h2{
+    font-family: 'Courgette', cursive;
+    color: #EB43A3;
+}
+/* -----FIN 1ier bloc le principe ------ */
+/* -------- 2ieme bloc nos licornes ------*/
+#nos_licornes{
+    width: 95%;
+    height: 360px;
+    margin: 0 auto;
+    /* border: 2px solid orangered; */
+}
+
+#nos_licornes figure div{
+    margin-left: 20px;
+    float: left;
+
+}
+
+figure div:hover{
+    transform: scale(1.1);
+    -moz-transition-duration: 2s
+}
+img[src*="img/unicorns"]{
+    width: 273px;
+    height: 245px;
+    /*padding: none;*/
+} 
+figcaption{
+   
+    background-color: rgba(51, 51, 51, 0.726);
+    text-align: center;
+    color: #fff;
+    position: relative;
+    bottom: 24px;
+}
+/* --------FIN 2ieme bloc nos licornes ------*/
+/* --------Debut 3ieme bloc ------ */
+#nous_trouver{
+    width: 95%;
+    height: 530px;
+    margin: 0 auto;
+    /* border: 2px solid orange; */
+}
+ifram{
+    /* width: 50%; */
+    float: left;
+}
+#contact{
+    width: 50%;
+    float: right;
+}
+h3{
+   font-family: 'Courgette', cursive;
+    color: #EB43A3; 
+}
+input{
+    width: 232px;
+    height: 40px;
+    font-size: 22px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #EB43A3;
+}
+/* --------FIN 3ieme bloc ------ */
+/* ----- FOOTER --------- */
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: #E577B5;
+    margin-top: 65px;
+}
+footer p{
+    float: right;
+    color: #fff;
+    font-size: 20px;
+}
+/* -----FIN FOOTER --------- */

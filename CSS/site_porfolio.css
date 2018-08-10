@@ -44,7 +44,7 @@ nav ul li{
     list-style: none;
     display: inline;
     margin: 0px 20px;
-    box-shadow: 0 0 15px 5px #00C1F8;
+    box-shadow: nous_trouver #00C1F8;
 }
 ul{
     /* float: right; */

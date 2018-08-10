@@ -1,0 +1,229 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+    /* border: 2px solid #08bc05; */
+   font-family: 'Montserrat', sans-serif;
+}
+
+
+header{
+    width: 100%;
+    height: 1000px;
+    
+}
+img[src*="dinosaure"]{
+    width: 100%;
+}
+
+nav{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.37);
+    text-transform: uppercase;
+}
+/* -------DEBUT DU NAV--------- */
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 65px;
+    text-align: center;
+    
+    
+}
+nav ul{
+    padding-left: 395px;
+    /* padding-top: 7px; */
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    border: 1px solid #fff;
+}
+nav ul li span{
+    color: rgba(0, 0, 0, 0.788);
+}
+input{
+    width: 150px;
+    background: #1C5F81;
+    color: #fff;
+    font-size: 20px;
+}
+input{
+    width: 150px;
+    background: #1C5F81;
+    color: #fff;
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+input:hover{
+    background: #fff;
+    color: #1C5F81;
+}
+/* ------FIN DU NAV---------- */
+
+/* -----IMAGE----- */
+#logo1{
+    width: 30%;
+    position: absolute;
+    left: 36em;
+    top: 16em;
+}
+#climatise{
+    position: absolute;
+    right:0 ;
+    top:67em;
+}
+/* ----FIN DU HEADER ---- */
+/* --------DEBUT DU MAIN---------- */
+main{
+    position: relative;
+    top: 21em;
+    width: 60%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+  
+}
+main img{
+    position: relative;
+    left: 12em;
+}
+
+img[src*="entree"]:hover{
+    transform: scale(1.2);
+    -moz-transition-duration: 2s;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;    text-align: center;
+}
+.texte{
+    width: 765px;
+    margin: auto;
+}
+.texte_gras{
+    width: 765px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    word-spacing: 10px;
+}
+.texte_gras2{
+     width: 765px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 27px;
+    word-spacing: 10px;
+}
+/* #reserver input{
+    position: relative;
+    left: 15em;
+    top: 2em;
+    width: 150px;
+    background: #1C5F81;
+    color: #fff;
+    padding: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+} */
+/* #reserver input:hover{
+    background-color: #fff;
+    color: #1C5F81;
+} */
+#tarif_comment{
+    width: 100%;
+
+}
+#tarifs{
+    width: 46%;
+    text-align: left;
+    margin-top: 6em;
+    float: left;
+}
+#tarifs h3{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+ .acheter input{
+    width: 150px;
+    background: #1C5F81;
+    color: #fff;
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 2px;
+} 
+button input:hover{
+    background: #fff;
+    color: #1C5F81;
+    -moz-transition-duration: 2s;
+} 
+
+#comment{
+    width: 50%;
+    text-align: left;
+    margin-top: 6em;
+    float: left;
+}
+#comment span{
+    font-size: 30px;
+}
+#comment strong span{
+    background-color: rgba(15, 15, 255, 0.767);
+    border-radius: 20px 20px 20px 20px;
+}
+#comment iframe{
+    position: relative;
+
+   border: 2px solid blue;
+}
+#patenaires{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    position: relative;
+    bottom: 6em;
+}
+
+#pub{
+    width: 100%;
+    height: 150px;
+    position: relative;
+    bottom: 9em;
+    right: 82px;
+    z-index: 10;
+    transform: none;
+}
+#pub img{
+    padding: 35px;
+
+}
+#footer{
+    width: 100%;
+    height: 300px;
+    background-color: #000;
+   position: relative;
+   top: 60em;
+}
+#footer img{
+    position: relative;
+    right: 19em;
+    bottom: 6em;
+}
+#footer a{
+    text-decoration: none;
+    color: #fff;
+}
+#footer ul{
+    position: relative;
+    top: 7em;
+    right: 65em;
+}
